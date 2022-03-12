@@ -1,11 +1,13 @@
-## Guia rapido
+# WeatherSite
 
-```bash
-yarn create next-app [project-name] -e https://github.com/odiegoalessandro/nextjs-with-chakra-ui
-# or
-npx create-next-app [project-name] -e https://github.com/odiegoalessandro/nextjs-with-chakra-ui
-```
+## Sobre
 
-Após isso configure suas fontes no arquivo `src/components/fonts.tsx` e suas metatags no `src/components/main.tsx`
-caso queira adicionar novas cores, variantes e padrões vá em `src/lib/chakra-theme.ts` em caso de duvidas
-[procure na documentação do chakra](https://chakra-ui.com/docs/theming/customize-theme)
+Um site para te informar sobre o clima
+
+## Tasks
+
+- [ ] Mostrar todos os dados principais(temperatura, umidade, velocidade do vento, sensação termica e etc)
+- [ ] Guardar os dados em cookies
+- [ ] Poder adicionar mais de uma localização
+- [ ] Mostrar a variação de temperatura em um grafico
+- [ ] Previsão da semana
